@@ -9,7 +9,7 @@ app.use(express.json());
 
 const PORT = process.env.PORT || 3000;
 const TMDB_API_KEY = "193c909f9dcb815ea536c783dab59ff5";
-const MAHBOUB_WEBHOOK = "https://knbcvkymdrcoljmoderr.supabase.co/functions/v1/ingest-media";
+const MAHBOUB_WEBHOOK = "https://knbcvkymdrcoljmoderr.supabase.co/functions/v1/ingest";
 
 // قائمة المواقع المحظورة لمنع الإعلانات
 const BLOCKED_DOMAINS = [
